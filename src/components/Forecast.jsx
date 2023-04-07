@@ -33,7 +33,7 @@ const Forecast = () => {
     <Container className="mb-3">
       {settimana !== null && (
         <>
-          <ListGroup>
+          <ListGroup id="forecast">
             {settimana.map((giorno, index) => (
               <ListGroup.Item key={index} className="px-5 d-flex justify-content-between align-items-center">
                 <span className="fs-4">{giorno.dt_txt}</span>
