@@ -7,7 +7,7 @@ const MainCard = () => {
   const icon = `https://openweathermap.org/img/w/${meteo.weather[0].icon}.png`;
 
   return (
-    <Container>
+    <Container className="mainCard">
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4 d-flex justify-content-center">

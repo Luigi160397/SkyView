@@ -5,7 +5,7 @@ const InfoMeteo = () => {
   const meteo = useSelector(state => state.meteo.content);
 
   return (
-    <Container className="mb-5">
+    <Container className="pb-5">
       <Row xs={2} md={4} className="gx-3 gy-3">
         <Col>
           <Card id="infoCard">

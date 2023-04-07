@@ -6,3 +6,15 @@
   height: 300px;
   overflow: auto;
 }
+
+body {
+  background-image: url("https://img.wallpapic.it/i7994-731-815/medium/nuvole-blu-luce-luna-sfondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card,
+.list-group-item {
+  background: rgba(255, 255, 255, 0.336);
+  backdrop-filter: blur(10px);
+}

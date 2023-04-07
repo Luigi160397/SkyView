@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const ButtonHome = () => {
   const navigate = useNavigate();
   return (
-    <Row className="mt-4 mb-3">
+    <Row className="pt-4 pb-3">
       <Col className="d-flex justify-content-center">
         <Button
           onClick={() => {
