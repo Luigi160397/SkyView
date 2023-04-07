@@ -5,6 +5,7 @@ import Forecast from "./Forecast";
 import InfoMeteo from "./InfoMeteo";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
+import LineChart from "./LineChart";
 
 const Meteo = () => {
   const coord = useSelector(state => state.coord.content);
@@ -40,6 +41,7 @@ const Meteo = () => {
         <>
           <MainCard />
           <Forecast />
+          <LineChart />
           <InfoMeteo />
         </>
       )}
