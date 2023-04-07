@@ -11,7 +11,7 @@ const MainCard = () => {
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4 d-flex justify-content-center">
-            <img src={icon} className="img-fluid " alt="meteo" />
+            <img src={icon} className="img-fluid " width={300} height={200} alt="meteo" />
           </div>
           <div className="col-md-8 d-flex align-items-center">
             <div className="card-body text-center text-md-start">
