@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Container, ListGroup } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
+import { WiDaySunny, WiCloud, WiRain, WiSnow, WiThunderstorm } from "react-icons/wi";
 
 const Forecast = () => {
   const coord = useSelector(state => state.coord.content);
@@ -29,22 +30,53 @@ const Forecast = () => {
   }, []);
   const settimana = useSelector(state => state.settimana.content);
 
+  const weatherIcon = code => {
+    switch (code) {
+      case "01d":
+        return <WiDaySunny size={70} color="#161616" />;
+      case "01n":
+        return <WiDaySunny size={70} color="#161616" />;
+      case "02d":
+      case "02n":
+      case "03d":
+      case "03n":
+        return <WiCloud size={70} color="#161616" />;
+      case "04d":
+      case "04n":
+        return <WiCloud size={70} color="#161616" />;
+      case "09d":
+      case "09n":
+      case "10d":
+      case "10n":
+        return <WiRain size={70} color="#161616" />;
+      case "11d":
+      case "11n":
+        return <WiThunderstorm size={70} color="#161616" />;
+      case "13d":
+      case "13n":
+        return <WiSnow size={70} color="#161616" />;
+      default:
+        return <WiDaySunny size={70} color="#161616" />;
+    }
+  };
+
   return (
     <Container className="mb-3">
       {settimana !== null && (
         <>
           <ListGroup id="forecast">
             {settimana.map((giorno, index) => (
-              <ListGroup.Item key={index} className="px-5 d-flex justify-content-between align-items-center">
-                <span className="fs-4">{giorno.dt_txt}</span>
-                <span>
-                  <img
-                    src={`https://openweathermap.org/img/w/${giorno.weather[0].icon}.png`}
-                    width={70}
-                    className="img-fluid "
-                    alt="meteo"
-                  />
+              <ListGroup.Item key={index} className="px-3 px-md-5 d-flex justify-content-between align-items-center">
+                <span className="fs-4 text-truncate">
+                  {new Date(giorno.dt * 1000).toLocaleDateString("it-IT", {
+                    day: "numeric",
+                    month: "short",
+                    hour: "2-digit",
+                    minute: "2-digit",
+                    timeZone: "Europe/Rome"
+                  })}
                 </span>
+                <span>{weatherIcon(giorno.weather[0].icon)}</span>
                 <span className="fs-4 text-nowrap">
                   {parseFloat(giorno.main.temp_min).toFixed(0)}° – {parseFloat(giorno.main.temp_max).toFixed(0)}°
                 </span>
