@@ -1,6 +1,9 @@
 const initialState = {
   meteo: {
-    content: []
+    content: null
+  },
+  settimana: {
+    content: null
   }
 };
 
@@ -11,7 +14,15 @@ const mainReducer = (state = initialState, action) => {
         ...state,
         meteo: {
           ...state.meteo,
-          content: [action.payload]
+          content: action.payload
+        }
+      };
+    case "METEO_SETTIMANA":
+      return {
+        ...state,
+        settimana: {
+          ...state.settimana,
+          content: action.payload
         }
       };
     default:

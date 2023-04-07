@@ -12,7 +12,6 @@ const Meteo = () => {
 
   const endpoint = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&lang=it&units=metric&appid=7a8ddce8f84f177f053d45de79e6ca77`;
 
-  const meteo = useSelector(state => state.meteo.content);
   const dispatch = useDispatch();
 
   const request = async endpoint => {
@@ -32,12 +31,17 @@ const Meteo = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const meteo = useSelector(state => state.meteo.content);
   return (
     <Container fluid>
       <ButtonHome />
-      <MainCard />
-      <Forecast />
-      <InfoMeteo />
+      {meteo !== null && (
+        <>
+          <MainCard />
+          <Forecast />
+          <InfoMeteo />
+        </>
+      )}
     </Container>
   );
 };
