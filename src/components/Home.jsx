@@ -29,12 +29,12 @@ const Home = () => {
   };
 
   return (
-    <Container className="d-flex flex-column justify-content-center align-items-center">
+    <Container className="d-flex flex-column justify-content-center align-items-center mt-5">
       <h1 className="display-2">SkyView</h1>
       <Form onSubmit={search}>
         <Form.Group className="mb-3" controlId="search">
           <Form.Label>Cerca una città:</Form.Label>
-          <Form.Control value={query} onChange={handleChange} type="search" placeholder="es. roma, milano..." />
+          <Form.Control value={query} onChange={handleChange} type="search" placeholder="es. Roma, Milano..." />
         </Form.Group>
       </Form>
     </Container>
