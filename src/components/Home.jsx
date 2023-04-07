@@ -29,7 +29,7 @@ const Home = () => {
   };
 
   return (
-    <Container className="d-flex flex-column align-items-center pt-4 text-light">
+    <Container className="d-flex flex-column align-items-center pt-4 text-light home">
       <h1 className="display-1">SkyView</h1>
       <Form onSubmit={search}>
         <Form.Group className="mb-3" controlId="search">

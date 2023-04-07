@@ -13,6 +13,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.home {
+  height: 900px;
+}
+
 .card,
 .list-group-item {
   background: rgba(255, 255, 255, 0.336);

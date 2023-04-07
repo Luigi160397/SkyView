@@ -45,8 +45,7 @@ const Forecast = () => {
                     alt="meteo"
                   />
                 </span>
-                <span className="fs-4">
-                  {" "}
+                <span className="fs-4 text-nowrap">
                   {parseFloat(giorno.main.temp_min).toFixed(0)}° – {parseFloat(giorno.main.temp_max).toFixed(0)}°
                 </span>
               </ListGroup.Item>
