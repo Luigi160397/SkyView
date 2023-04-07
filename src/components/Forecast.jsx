@@ -3,8 +3,9 @@ import { Container, ListGroup } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 
 const Forecast = () => {
-  const lat = "41.8933203";
-  const lon = "12.4829321";
+  const coord = useSelector(state => state.coord.content);
+  const lat = coord[0].lat;
+  const lon = coord[0].lon;
 
   const endpoint = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&lang=it&units=metric&appid=7a8ddce8f84f177f053d45de79e6ca77`;
 

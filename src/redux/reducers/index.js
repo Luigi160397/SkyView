@@ -4,6 +4,9 @@ const initialState = {
   },
   settimana: {
     content: null
+  },
+  coord: {
+    content: []
   }
 };
 
@@ -25,6 +28,15 @@ const mainReducer = (state = initialState, action) => {
           content: action.payload
         }
       };
+    case "LAT_LON":
+      return {
+        ...state,
+        coord: {
+          ...state.coord,
+          content: action.payload
+        }
+      };
+
     default:
       return state;
   }
