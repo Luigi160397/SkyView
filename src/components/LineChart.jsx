@@ -23,6 +23,7 @@ const LineChart = () => {
             new Date(giorno.dt * 1000).toLocaleDateString("it-IT", {
               day: "numeric",
               hour: "2-digit",
+              minute: "2-digit",
               month: "numeric"
             })
           ),
