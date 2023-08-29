@@ -2,6 +2,9 @@
 
 Benvenuti in **SkyView**, l'applicazione meteo che ti tiene sempre aggiornato sulle condizioni atmosferiche nella tua città e nei giorni a venire! ☀️🌡️
 
+![localhost_3000_search](https://github.com/Luigi160397/SkyView/assets/123403688/758ef585-4719-4c30-a682-a25780b3f5da)
+
+
 ## Introduzione
 
 SkyView è la tua guida quotidiana per le previsioni meteorologiche. Che tu stia pianificando una gita fuori o semplicemente curioso di sapere cosa aspettarti dal tempo, SkyView è qui per te. Con un'interfaccia intuitiva e informazioni precise, non dovrai più preoccuparti del tempo che fa là fuori. ☔⛅❄️
