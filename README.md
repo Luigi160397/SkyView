@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# SkyView - App Meteo 🌤️🌦️🌧️❄️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Benvenuti in **SkyView**, l'applicazione meteo che ti tiene sempre aggiornato sulle condizioni atmosferiche nella tua città e nei giorni a venire! ☀️🌡️
 
-## Available Scripts
+## Introduzione
 
-In the project directory, you can run:
+SkyView è la tua guida quotidiana per le previsioni meteorologiche. Che tu stia pianificando una gita fuori o semplicemente curioso di sapere cosa aspettarti dal tempo, SkyView è qui per te. Con un'interfaccia intuitiva e informazioni precise, non dovrai più preoccuparti del tempo che fa là fuori. ☔⛅❄️
 
-### `npm start`
+## Caratteristiche Principali
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Ricerca per Città**: Inserisci il nome della tua città e scopri istantaneamente le previsioni meteo attuali e per i prossimi giorni.
+- **Dettagli Completi**: Ricevi dettagli sulle temperature massime, minime, l'umidità, la velocità del vento e molto altro ancora.
+- **Previsioni a Lungo Termine**: Pianifica con fiducia grazie alle previsioni estese che ti accompagneranno nei prossimi giorni.
+- **Design Intuitivo**: Un'interfaccia utente pulita e intuitiva, pensata per offrirti informazioni meteo in modo chiaro e rapido.
+- **Aggiornamenti Regolari**: Le informazioni meteo vengono costantemente aggiornate per fornirti dati sempre accurati.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contatti
 
-### `npm test`
+Hai domande, suggerimenti o vuoi semplicemente farmi sapere cosa ne pensi? Puoi contattarmi all'indirizzo email luigi.difraia.97@gmail.com o seguirmi su [LinkedIn](https://www.linkedin.com/in/luigi-di-fraia-full-stack-developer/) qual'ora fossi interessato al mio lavoro.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Ringraziamenti
 
-### `npm run build`
+Un grande ringraziamento alla comunità open-source per il supporto e le risorse che hanno reso possibile lo sviluppo di SkyView.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2023 SkyView. Tutti i diritti riservati.
