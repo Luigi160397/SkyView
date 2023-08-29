@@ -27,4 +27,4 @@ Un grande ringraziamento alla comunità open-source per il supporto e le risorse
 
 ---
 
-© 2023 SkyView. Tutti i diritti riservati.
+© 2023 SkyView.
